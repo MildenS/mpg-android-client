@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">MyPocketGuide</string>
+
+    <!-- Menu header -->
+    <string name="menu_header_title">Музей</string>
+    <string name="menu_greeting_morning">Доброе утро 👋</string>
+
+    <!-- History section -->
+    <string name="menu_section_history">Недавно просмотренные</string>
+    <string name="menu_action_clear">Очистить</string>
+    <string name="menu_clear_history_a11y">Очистить всю историю просмотров</string>
+    <string name="history_empty_title">Пока ничего не распознано</string>
+    <string name="history_empty_subtitle">Отсканируйте экспонат, и он появится здесь</string>
+
+    <!-- Clear confirmation dialog -->
+    <string name="clear_dialog_title">Очистить историю?</string>
+    <string name="clear_dialog_message">Все недавно просмотренные экспонаты будут удалены. Это действие нельзя отменить.</string>
+    <string name="clear_dialog_confirm">Очистить</string>
+    <string name="clear_dialog_cancel">Отмена</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_home">Главная</string>
+    <string name="nav_favorites">Избранное</string>
+
+    <!-- Favorites screen -->
+    <string name="favorites_title">Избранное</string>
+    <string name="favorites_empty_title">Пока ничего не добавлено</string>
+    <string name="favorites_empty_subtitle">Нажмите «Добавить в избранное» на экране экспоната</string>
+
+    <!-- Common -->
+    <string name="common_back">Назад</string>
+
+    <!-- Exhibit screen -->
+    <string name="exhibit_title">Экспонат</string>
+    <string name="exhibit_action_listen">Прослушать описание</string>
+    <string name="exhibit_action_stop">Остановить чтение</string>
+    <string name="exhibit_action_scan_again">Сканировать снова</string>
+    <string name="exhibit_action_favorite">Добавить в избранное</string>
+    <string name="exhibit_action_remove_from_favorite">Убрать из избранного</string>
+    <string name="exhibit_not_found">Экспонат не найден</string>
+    <string name="exhibit_tts_not_available">Озвучивание недоступно. Установите голосовые данные для русского языка в настройках системы.</string>
+
+    <!-- Scan -->
+    <string name="scan_cta_title">Распознать экспонат</string>
+    <string name="scan_cta_subtitle">Наведите камеру на экспонат</string>
+    <string name="scan_cta_description">Распознать экспонат с помощью камеры</string>
+    <string name="scan_title">Сканирование</string>
+    <string name="scan_placeholder_subtitle">Наведите камеру на экспонат, чтобы распознать его</string>
+    <string name="scan_capture">Снять</string>
+    <string name="scan_permission_title">Нужен доступ к камере</string>
+    <string name="scan_permission_message">Чтобы распознавать экспонаты, разрешите доступ к камере. Или выберите фото из галереи.</string>
+    <string name="scan_permission_grant">Разрешить камеру</string>
+    <string name="scan_pick_from_gallery">Выбрать из галереи</string>
+    <string name="scan_pick_photo">Выбрать фото</string>
+    <string name="scan_recognizing">Распознаём экспонат…</string>
+    <string name="scan_error_title">Не удалось распознать</string>
+    <string name="scan_retry">Попробовать снова</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_auto_read_title">Озвучивать экспонаты?</string>
+    <string name="onboarding_auto_read_message">Приложение может автоматически читать вслух название и описание, когда вы открываете экспонат. Это удобно для слабовидящих. Вы всегда сможете изменить это в настройках.</string>
+    <string name="onboarding_enable">Включить</string>
+    <string name="onboarding_not_now">Не сейчас</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_open">Открыть настройки</string>
+    <string name="settings_back">Назад</string>
+
+    <string name="settings_section_accessibility">Доступность</string>
+    <string name="settings_auto_read">Озвучивать экспонаты автоматически</string>
+    <string name="settings_auto_read_description">Название и описание будут читаться вслух при открытии экспоната</string>
+    <string name="settings_speech_rate">Скорость речи</string>
+    <string name="settings_speech_rate_slow">Медленно</string>
+    <string name="settings_speech_rate_normal">Обычно</string>
+    <string name="settings_speech_rate_fast">Быстро</string>
+
+    <string name="settings_section_server">Сервер</string>
+    <string name="settings_server_url">Адрес сервера</string>
+    <string name="settings_server_url_hint">http://192.168.1.42:8888/</string>
+    <string name="settings_server_url_helper">Адрес должен заканчиваться слэшем и содержать протокол (http:// или https://)</string>
+    <string name="settings_check_connection">Проверить соединение</string>
+    <string name="settings_check_success">Соединение установлено</string>
+    <string name="settings_check_failure">Не удалось связаться с сервером</string>
+    <string name="settings_check_invalid_url">Некорректный адрес</string>
+    <string name="settings_save">Сохранить</string>
+    <string name="settings_saved">Сохранено</string>
+
+    <string name="settings_section_about">О приложении</string>
+    <string name="settings_version">Версия</string>
+</resources>
